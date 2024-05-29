@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    background-color: #424242;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 0 15px 25px;
+    gap: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+#weather-logo{
+    height: 35px;
+}
+
+#search-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #303030;
+    border-bottom: 1px solid #424242;
+}
+
+#search-form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#city-input{
+    width: 300px;
+    height: 27px;
+    padding: 0 3px 0 3px;
+    background-color: #303030;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid silver;
+    color: silver;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#submit-button{
+    height: 35px;
+    width: 60px;
+    background-color: #202020;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 0 6px #202020;
+}
+
+#submit-button:hover{
+    background-color: #303030;
+    cursor: pointer;
+}
+
+#search-img{
+    height: 60%;
+}
+
+#main-container{
+    padding: 30px;
+    flex-grow: 1;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#weather-container{
+    background-color: #DBA2A2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #303030;
+    padding: 30px 55px 30px 55px;
+    border-radius: 7px;
+    gap: 10px;
+    font-weight: 600;
+}
+
+#city-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 45px;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#conditions-img{
+    height: 43px;
+    width: 50px;
+    object-fit: cover;
+    /* height: 50px; */
+}
+
+#conditions{
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+#temp-container{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.tiny-containers{
+    font-size: 20px;
+}
