@@ -1,6 +1,6 @@
 export default async function getInfo(city){
     try{
-        const response = await fetch('http://api.weatherapi.com/v1/current.json?key=481d157be2154cbc8ba13708242505&q=' + city, {mode: 'cors'})
+        const response = await fetch('https://api.weatherapi.com/v1/current.json?key=481d157be2154cbc8ba13708242505&q=' + city, {mode: 'cors'})
         const data = await response.json()
         const values =  [
             data.location.name,
